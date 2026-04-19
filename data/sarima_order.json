@@ -1,0 +1,15 @@
+{
+  "order": [
+    1,
+    0,
+    1
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    1,
+    7
+  ],
+  "selection_criterion": "AIC",
+  "aic": 61624.83264558717
+}

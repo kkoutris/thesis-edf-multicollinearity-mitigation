@@ -1,0 +1,4 @@
+Strategy,Median CV,Mean Sign Consistency
+Filter (OLS),0.524,0.925
+Ridge,0.522,0.856
+ElasticNet,0.542,0.917

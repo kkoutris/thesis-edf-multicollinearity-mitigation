@@ -1,0 +1,4 @@
+Strategy,Total |SHAP| (MW),|SHAP| for S1-filtered features (MW),% attributed to S1-filtered,|SHAP| for ElasNet-zeroed (MW),% attributed to ElasNet-zeroed,XGB R2 on residuals
+Filter,1053.51,113.41,10.76,145.23,13.79,0.963
+Ridge,992.33,68.97,6.95,162.45,16.37,0.9628
+ElasticNet,1084.06,106.48,9.82,185.15,17.08,0.9678

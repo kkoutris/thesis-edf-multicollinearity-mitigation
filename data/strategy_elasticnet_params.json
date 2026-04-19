@@ -1,0 +1,30 @@
+{
+  "l1_ratio": 1.0,
+  "alpha": 0.01,
+  "selected_features": [
+    "temp_c",
+    "wind_ms",
+    "global_rad",
+    "pressure_hpa",
+    "nao",
+    "price_eur_kwh",
+    "population",
+    "solar_energy_gwh",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_holiday"
+  ],
+  "zeroed_features": [
+    "humidity_pct",
+    "cloudiness",
+    "gdp_mln_eur",
+    "wind_energy_gwh",
+    "sunshine_h",
+    "precip_mm"
+  ],
+  "n_selected": 12,
+  "n_zeroed": 6,
+  "cv_splits": 5,
+  "optimal_cv_rmse": 0.556928
+}

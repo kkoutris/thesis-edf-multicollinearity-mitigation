@@ -1,0 +1,26 @@
+{
+  "lambda": 100.0,
+  "features": [
+    "temp_c",
+    "wind_ms",
+    "precip_mm",
+    "sunshine_h",
+    "global_rad",
+    "pressure_hpa",
+    "humidity_pct",
+    "cloudiness",
+    "nao",
+    "price_eur_kwh",
+    "gdp_mln_eur",
+    "population",
+    "wind_energy_gwh",
+    "solar_energy_gwh",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_holiday"
+  ],
+  "n_features": 18,
+  "cv_splits": 5,
+  "optimal_cv_rmse": 0.606539
+}

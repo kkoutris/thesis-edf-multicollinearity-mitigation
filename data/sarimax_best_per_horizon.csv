@@ -1,0 +1,7 @@
+horizon_days,model,mape_pct,nrmse_pct
+1,SARIMAX-3 (Ridge),2.7712,9.0871
+3,SARIMAX-4 (ElasNet),3.5775,12.1701
+7,SARIMAX-3 (Ridge),3.6617,13.3117
+30,SARIMAX-1 (Filter),4.5926,15.5602
+90,SARIMAX-2 (PCA),5.2339,17.8131
+180,SARIMAX-1 (Filter),4.9019,15.745
