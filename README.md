@@ -1,18 +1,43 @@
-# Master's Thesis: Energy Demand Forecasting
+# Energy Demand Forecasting — Netherlands
 
-## Investigating Climate and Economic Predictors for Energy Demand Forecasting
+**MSc Data Science Thesis · University of Amsterdam**
 
-### Overview
+> *Investigating Climate and Economic Predictors for Energy Demand Forecasting*
 
-This thesis explores the integration of climate and economic variables as predictors for energy demand forecasting. By combining meteorological data with macroeconomic indicators, the research aims to develop more accurate and robust forecasting models that capture the complex drivers of energy consumption.
+This repository contains the analysis pipeline for the thesis, which studies how multicollinearity mitigation strategies (correlation filtering, PCA, Ridge, ElasticNet) affect both the forecast accuracy and interpretability of SARIMAX models for Dutch electricity demand. A two-stage SARIMAX approach is used to isolate the contribution of climate and economic predictors from the underlying temporal dynamics, evaluated across six forecast horizons (H ∈ {1, 3, 7, 30, 90, 180} days). An LSTM is included as an accuracy reference benchmark.
 
-### Research Objectives
+---
 
-- Identify key climate variables (temperature, humidity, solar radiation, etc.) that influence energy demand patterns
-- Analyze economic indicators (GDP, industrial production, energy prices, etc.) as predictors of consumption trends
-- Develop forecasting models that leverage both climate and economic data
-- Evaluate model performance across different time horizons and geographic regions
+## Repository Layout
 
-### Keywords
+```
+.
+├── EDA.ipynb                        # Exploratory data analysis
+├── 01_feature_engineering.ipynb     # Build daily modelling dataset (2009–2025)
+├── 02_predictor_strategies.ipynb    # Four multicollinearity mitigation strategies
+├── 03_sarimax_models.ipynb          # Two-stage SARIMAX fitting & forecasting
+├── 04_interpretability.ipynb        # H1 / H2 / H3 hypothesis tests
+├── 05_lstm_benchmark.ipynb          # LSTM accuracy reference benchmark
+│
+├── data/                            # Intermediate pipeline artifacts
+├── plots/                           # Generated figures
+├── raw_data/                        # Raw climate and economic source files
+└── loadConsumption/                 # Raw load data (TenneT/ENTSO-E) + preprocessing
+```
 
-Energy demand forecasting, climate predictors, economic indicators, machine learning, time series analysis
+Notebooks are designed to run sequentially — each saves outputs to `data/` consumed by the next. Any single notebook can be re-run in isolation as long as its upstream `data/` files are present.
+
+---
+
+## Setup
+
+**Python 3.10+ recommended.**
+
+```bash
+pip install -r requirements.txt
+pip install pandas numpy scikit-learn matplotlib seaborn shap torch
+```
+
+```bash
+jupyter lab
+```
