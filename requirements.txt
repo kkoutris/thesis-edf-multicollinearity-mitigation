@@ -1,3 +1,12 @@
+ipywidgets
+matplotlib
+numpy
 openpyxl
+pandas
 prophet
+scikit-learn
+scipy
+seaborn
+shap
 statsmodels
+torch
