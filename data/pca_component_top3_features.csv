@@ -1,0 +1,10 @@
+component,explained_variance_pct,top1_feature,top1_loading,top2_feature,top2_loading,top3_feature,top3_loading
+PC1,27.19,global_rad,0.472,sunshine_h,0.468,humidity_pct,-0.403
+PC2,23.42,population,0.526,gdp_mln_eur,0.518,wind_energy_gwh,0.474
+PC3,11.66,pressure_hpa,0.526,precip_mm,-0.438,temp_c,-0.397
+PC4,9.02,wind_ms,0.607,price_eur_kwh,0.421,nao,0.387
+PC5,6.88,price_eur_kwh,0.777,nao,-0.426,wind_ms,-0.238
+PC6,5.38,precip_mm,0.713,nao,0.375,wind_ms,-0.323
+PC7,4.81,nao,0.531,temp_c,0.507,cloudiness,0.462
+PC8,4.01,pressure_hpa,0.792,wind_ms,0.358,precip_mm,0.298
+PC9,3.2,solar_energy_gwh,0.646,wind_energy_gwh,-0.514,temp_c,-0.407
