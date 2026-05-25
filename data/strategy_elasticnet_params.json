@@ -3,28 +3,34 @@
   "alpha": 0.01,
   "selected_features": [
     "temp_c",
-    "wind_ms",
+    "precip_mm",
+    "sunshine_h",
     "global_rad",
     "pressure_hpa",
     "nao",
-    "price_eur_kwh",
+    "gdp_mln_eur",
     "population",
+    "wind_energy_gwh",
     "solar_energy_gwh",
     "day_of_week",
     "month",
     "is_weekend",
-    "is_holiday"
+    "is_holiday",
+    "sin1_ann",
+    "cos1_ann",
+    "sin2_ann",
+    "cos2_ann"
   ],
   "zeroed_features": [
     "humidity_pct",
     "cloudiness",
-    "gdp_mln_eur",
-    "wind_energy_gwh",
-    "sunshine_h",
-    "precip_mm"
+    "price_eur_kwh",
+    "wind_ms",
+    "sin1_ann",
+    "sin2_ann"
   ],
-  "n_selected": 12,
+  "n_selected": 18,
   "n_zeroed": 6,
   "cv_splits": 5,
-  "optimal_cv_rmse": 0.556928
+  "optimal_cv_rmse": 0.527984
 }
