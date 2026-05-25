@@ -1,0 +1,4 @@
+pair,spearman_rho,p_value,p_value_str,supported,h3_verdict
+Filter↔Ridge,0.93,3.819911809757466e-10,3.82e-10,True,True
+Filter↔Lasso,0.9401,8.307348486990954e-11,8.31e-11,True,True
+Ridge↔Lasso,0.9492,1.679827731881115e-11,1.68e-11,True,True

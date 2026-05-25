@@ -1,4 +1,5 @@
 Strategy,Median CV,Mean Sign Consistency
-Filter (OLS),0.524,0.925
-Ridge,0.522,0.856
-ElasticNet,0.542,0.917
+OLS-All (baseline),0.821,0.859
+Filter,0.865,0.86
+Ridge,0.655,0.841
+Lasso,0.864,0.817

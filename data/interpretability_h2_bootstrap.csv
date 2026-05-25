@@ -1,0 +1,2 @@
+observed_gap_pp,bootstrap_ci_lo_pp,bootstrap_ci_hi_pp,ci_excludes_zero,n_bootstrap,filtered_features
+8.5941,8.0125,9.1798,True,2000,"['population', 'sunshine_h']"

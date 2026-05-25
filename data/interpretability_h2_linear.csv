@@ -1,0 +1,2 @@
+rmse_ols_all_mw,rmse_filter_mw,rmse_ridge_mw,rmse_lasso_mw,excl_features_oos_r2_filter,oos_r2_ci_lo,oos_r2_ci_hi,n_bootstrap,filtered_features
+1324.03,930.66,1274.92,1279.39,-0.853051,-0.984405,-0.731517,2000,"['population', 'sunshine_h']"

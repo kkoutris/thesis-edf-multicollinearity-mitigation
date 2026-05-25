@@ -1,0 +1,4 @@
+group,ols_all_median_abs_contrib_mw,filter_median_abs_contrib_mw,ridge_median_abs_contrib_mw,lasso_median_abs_contrib_mw
+Behavioral,25.8187,27.0304,42.9899,26.3979
+Climate,22.9189,25.6266,27.2148,25.0186
+Economic,1600.4625,324.8442,154.3546,1667.7834

@@ -1,0 +1,5 @@
+comparison,observed_sign_cons_diff,ci_lo,ci_hi,significant
+OLS-All vs Ridge,0.0182,-0.0409,0.0727,False
+Filter vs Ridge,0.0191,-0.0509,0.0809,False
+Filter vs Lasso,0.0433,-0.0317,0.1167,False
+Ridge vs Lasso,0.0242,-0.0369,0.0934,False

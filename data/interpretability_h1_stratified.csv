@@ -1,0 +1,4 @@
+group,n_features,ols_all_median_cv,filter_median_cv,ridge_median_cv,lasso_median_cv,delta_filter_minus_ridge,ridge_more_stable
+Behavioral,4,0.4226,0.4585,0.2478,0.2831,0.2107,True
+Climate,7,0.6358,0.7098,0.6157,0.8226,0.0941,True
+Economic,6,1.8301,1.4465,0.788,3.0253,0.6585,True
